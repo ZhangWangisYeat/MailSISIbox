@@ -1,4 +1,4 @@
-# MailSISIbox
+# MailSISIbox - Version 1.0
 
 Moves files between two Windows machines linked by a remote desktop connection,
 for when drive redirection and file copy-paste are switched off. One PowerShell
@@ -63,3 +63,10 @@ It also needs a desktop Remote Desktop client. The browser-based web client has
 no clipboard channel a program can drive — a browser only reaches the clipboard
 when a human presses Ctrl+C or Ctrl+V — so the two sides can never find each
 other through one.
+
+# Notes
+
+PowerShell MailSISIBox.cmd file not included here for security purposes. It contains 
+the built-in interface within PowerShell to select and run commands without the need 
+for the user to type any commands themselves. Lightweight version will be released
+publicly in Version 1.1.
